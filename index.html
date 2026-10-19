@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // let users = ["Иван", "Алекс", "Муса", "Чанган"];
+
+        // for (let i =0 ; i < users.length; i++) {
+        //     console.log(usres[i]);
+            
+        // }
+        // //пребор массивов с конца 
+        // for(let i = users.length - 1; i >= 0; i--) {
+        //     console.log(users[i]);
+            
+        // }
+
+        // let car = ["bmw", "audi", "mercedes", "Lada"];
+
+        // for  (let i =0 ; i < car.length -1; i >= 0; i--){
+        //     console.log(car[i]);
+            
+        // }
+
+
+        // let student = [
+        //     {
+        //         name: "maga", 
+        //         lastNmae: "Ivanov", 
+        //         group: "2p1"
+        //     },
+        //     {
+        //         name: "Alex", 
+        //         lastNmae: "Андреев", 
+        //         group: "2p1"
+        //     },
+        //     {
+        //         name: "дизайнер", 
+        //         lastNmae: "Ivanov", 
+        //         group: "2p1"
+        //     },
+           
+        // ]
+        // for(let i = 0 ; i > student.length; i++){
+        //     console.log(student[i].group);
+            
+        // }
+
+        //цикл for...of для массивов 
+        // let cars = ["Bmw", 'Mercedes', 'Audi']
+       
+        // for(const element of cars) {
+        //     console.log(element);
+            
+        // }
+        // let users = ["Колоев", ] 
+
+        // for(const element of users) {
+        //     console.log(element);
+            
+        // }
+
+        // ///for...in цикл для объектов
+
+        // let car = {
+        //     marka: "bmw",
+        //     model: "M5", 
+        //     year: 2015
+        // }
+
+        
+        
+        // for(const key in car){
+        //     console.log([key]);
+            
+        // }
+
+        let student2 = {
+            name: "Maga", 
+            lastname: "Magaev", 
+            group: "2p2"
+        }
+
+        //Object.keys()- пребирает ключи объекта 
+
+        console.log(Object.keys(student2));
+
+        //Object.values()- пребирает все значения объекта 
+        console.log(Object.values(student2));
+
+        //object.entires() - пребирает ключи и значения 
+        console.log(Object.entries(student2));
+        
+        let cars2 = [{
+            marka:"Bmw" ,
+            model: "m3",
+            year: "2004",
+            color: "blue"
+
+
+
+        },
+        {
+            marka:"audi" ,
+            model: "4",
+            year: "2001",
+            color: "red"
+
+
+
+        },
+        {
+            marka:"li9" ,
+            model: "20",
+            year: "2012",
+            color: "green"
+
+
+
+
+        },
+        
+        {
+            marka:"mercedes" ,
+            model: "212",
+            year: "208",
+            color: "w"
+
+
+
+
+        },
+        {
+            marka:"Lada" ,
+            model: "20",
+            year: "2013",
+            color: "yellow"
+
+
+
+
+        }
+        
+        
+        
+        
+       
+    ];
+    for(let i = 0; i < cars2.length i++){
+        console.log(Object.values(cars2[i]));
+        
+    }
+    
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
